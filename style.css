@@ -1,0 +1,57 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  background-color: #f5d0cb;
+  
+}
+
+h1 {
+  margin: 0 auto;
+  width: 100%;
+  margin-top: 50px;
+  text-align: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  color: #848cae;
+  text-shadow: 1px 1px rgb(255, 255, 255);
+}
+p {
+  width: 100%;
+  margin-top: 50px;
+  text-align: center;
+  font-family: "Roboto" sans-serif;
+  font-size: xx-large;
+  color: rgb(109, 19, 19);
+  text-shadow: 0.5px 0px rgb(255, 255, 255);
+
+
+}
+.botoes {
+  margin-top: 50px;
+  text-align: center;
+}
+button {
+  
+  text-transform: uppercase;
+  padding: 25px 50px;
+  border-radius: 10px;
+  margin: 25px 50px;
+  background-color: #eca8b1;
+  border: solid 1px white;
+  width: 200px;
+  cursor: pointer;
+  color: white;
+}
+button:hover {
+  transition: all 0.3s ease-in-out 0s;
+  background-color: white;
+  color: #eca8b1;
+}
+.rodape p{
+  font-size: small;
+  margin: 0;
+  bottom: 0;
+  position:fixed;
+  width: 100%;
+}
